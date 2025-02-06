@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zitcha_sentry_python_gcp_init"
+version = "1.0"
+description = "A package for initialising the Sentry SDK."
+authors = [
+  { name = "Marcus Fabriczy", email = "marcus.fabriczy@zitcha.com" }
+]
+dependencies = [
+  "sentry-sdk>=1.0.0"
+]
