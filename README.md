@@ -6,7 +6,7 @@ Adds the Sentry's Python SDK. To send events such as errors or traces from your 
 
 Add into your `requirements.txt`:
 ```
-git+https://github.com/zitcha/sentry-python-gcp-init.git#egg=zitcha_sentry_init
+git+https://github.com/zitcha/sentry-python-gcp-init.git#egg=zitcha_sentry_python_gcp_init
 ```
 
 ## Required Environment Variables
